@@ -59,7 +59,7 @@
 }
 }
 /* for meddium screens */
-@media (min-width: 801px) and (max-weight:1100px){
+@media (min-width: 801px) and (max-width:1100px){
         .container{
           text-align: center;
         }
