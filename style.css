@@ -1,0 +1,73 @@
+:root{
+--first-font:"Playfair Display", serif;
+--second-font: "Poppins", sans-serif;
+--first-color: black;
+--second-color:#0d6efd;
+
+}
+/* for all screens */
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+.container h1{
+    font-size: 64px;
+    line-height: 80px;
+    margin: 190px 0 50px 30px;
+    color: var(--first-color);
+    font-family: var(--first-font);
+    font-weight: bold;
+}
+
+.contacts{
+    margin-left: 30px;
+
+}
+.contacts h3{
+    font-family: var(--second-font);
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--first-color);
+    font-weight: bold;
+}
+.contacts p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    font-weight: 500;
+}
+.contacts a{
+    color: var(--second-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* for small screens */
+
+@media (max-width: 800px){
+.container{
+  text-align: center;
+}
+.container h1{
+    font-size: 37px!important;
+    line-height: 40px;
+    margin-top: 50px!important;
+    margin-left: 0:
+}
+.contacts{
+    margin-left: 0;
+}
+}
+/* for meddium screens */
+@media (min-width: 801px) and (max-weight:1100px){
+        .container{
+          text-align: center;
+        }
+        .container h1{
+            margin-top: 100px;
+            margin-left: 0:
+        }
+        .contacts{
+            margin-left: 0;
+        }
+}
